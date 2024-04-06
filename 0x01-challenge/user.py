@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+"""
 User class
 """
 
@@ -12,7 +12,6 @@ class User():
 
     @property                                                                                    def email(self):
         """ Documentation """                                                                        return self.__email
-    
     @email.setter
     def email(self, value):
         """ Documentation """
@@ -21,7 +20,7 @@ class User():
         self.__email = value
 
 
-    
+
 if __name__ == "__main__":
 
     u = User()
