@@ -12,6 +12,7 @@ class User():
 
     @property                                                                                    def email(self):
         """ Documentation """                                                                        return self.__email
+    
     @email.setter
     def email(self, value):
         """ Documentation """
